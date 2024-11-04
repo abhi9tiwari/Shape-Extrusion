@@ -12,3 +12,10 @@ How It Works
     Server-Side:
         ColyseusJS manages rooms and synchronizes player states across clients.
         ShapeRoom.js defines the game logic for handling player connections, shape creation, and movement.
+
+Project Files
+
+    server/index.js: Main server file that sets up the Express server, initializes Colyseus, and defines the game room (ShapeRoom).
+    server/rooms/ShapeRoom.js: Colyseus room for handling player shapes and movement updates.
+    client/index.html: HTML file to load the BabylonJS and Colyseus client libraries and initialize the game.
+    client/js/main.js: Entry point for initializing the client game environment. BabylonJS setup for 3D scene, shapes, and player movements.
